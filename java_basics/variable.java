@@ -7,7 +7,7 @@ import javax.sound.sampled.SourceDataLine;
 /**
  * index
  */
-public class index {
+public class variable {
     public static void main(String[] args) {
     //Variables
 
