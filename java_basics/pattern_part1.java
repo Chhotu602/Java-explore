@@ -1,6 +1,6 @@
 package java_basics;
 
-public class pattern {
+public class pattern_part1 {
     public static void main(String[] args) {
         int n=4;                //This is a Global variable.
         int m=5;
