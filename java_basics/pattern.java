@@ -106,7 +106,7 @@ public class pattern {
         }
 
 
-        for(int i=1;i<=m;i++){
+        for(int i=1;i<=m;i++){                        //This is a 0-1 Triangle solution.
             for(int j=1;j<=i;j++){
                 
                 if((i+j)%2==0){
