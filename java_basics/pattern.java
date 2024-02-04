@@ -86,11 +86,35 @@ public class pattern {
             }
             // System.out.println();
         }
-        
+
 
         for(int i=m;i>=1;i--){                          //This is  Inverted Half Pyramid with Numbers solution.
             for(int j=1;j<=i;j++){                    
-                System.out.print(j);
+                // System.out.print(j);
+            }
+            // System.out.println();
+        }
+
+
+        int num=1;                                    //This is  a Floid's Triagle solution.
+        for(int i=1;i<=m;i++){
+            for(int j=1;j<=i;j++){
+                // System.out.print(num + " ");
+                // num++;
+            }
+            // System.out.println();
+        }
+
+
+        for(int i=1;i<=m;i++){
+            for(int j=1;j<=i;j++){
+                
+                if(num%2==0){
+                    System.out.print("0");
+                }else{
+                    System.out.print("1");
+                }
+                num++;
             }
             System.out.println();
         }
